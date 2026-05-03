@@ -1,0 +1,7 @@
+/* Importa o Tailwind inteiro */
+@import "tailwindcss";
+
+/* Sua configuração customizada entra aqui agora! */
+@theme {
+  --color-homeo-verde: #10B981;
+}
