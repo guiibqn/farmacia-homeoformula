@@ -51,4 +51,5 @@ Milton Silva de Jesus
 
 Product Owner (PO): Luiz Alberto Coelho Barbosa
 
-# Metodologia de Governança: Abordagem híbrida, combinando as diretrizes do guia PMBOK para o gerenciamento e planejamento macro com o framework Scrum para a execução dos ciclos ágeis de desenvolvimento.
+# Metodologia de Governança:
+Abordagem híbrida, combinando as diretrizes do guia PMBOK para o gerenciamento e planejamento macro com o framework Scrum para a execução dos ciclos ágeis de desenvolvimento.
