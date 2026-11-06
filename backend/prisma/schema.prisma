@@ -4,8 +4,11 @@
 // Get a free hosted Postgres database in seconds: `npx create-db`
 
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider            = "prisma-client"
+  output              = "../src/generated/prisma"
+  moduleFormat        = "cjs"
+  importFileExtension = "js"
+  generatedFileExtension = "ts"
 }
 
 datasource db {
@@ -19,4 +22,18 @@ model ProdutoTeste {
   estoque   Int      @default(0)
   ativo     Boolean  @default(true)
   criadoEm  DateTime @default(now())
+}
+
+// Catálogo de medicamentos usado no experimento de busca fonética (PCG - Entrega 2).
+// O id é definido explicitamente no seed (sem autoincrement) para casar com os
+// gabaritos do conjunto de testes (test/data/consultas.json).
+model Medicamento {
+  id             Int    @id
+  nome           String
+  principioAtivo String @map("principio_ativo")
+  chaveFonetica  String @map("chave_fonetica")
+
+  @@index([chaveFonetica])
+  @@index([principioAtivo])
+  @@map("medicamentos")
 }

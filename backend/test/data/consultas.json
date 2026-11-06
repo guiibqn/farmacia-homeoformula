@@ -1,0 +1,489 @@
+[
+  {
+    "termo_digitado": "Ibuprofeno",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      1,
+      2
+    ]
+  },
+  {
+    "termo_digitado": "Iboprofeno",
+    "categoria_erro": "Vogal átona",
+    "gabarito": [
+      1,
+      2
+    ]
+  },
+  {
+    "termo_digitado": "Ibuprof",
+    "categoria_erro": "Parcial",
+    "gabarito": [
+      1,
+      2
+    ]
+  },
+  {
+    "termo_digitado": "Amoxicilina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      3,
+      4
+    ]
+  },
+  {
+    "termo_digitado": "Amoxilina",
+    "categoria_erro": "Omissão",
+    "gabarito": [
+      3,
+      4
+    ]
+  },
+  {
+    "termo_digitado": "Amoxi",
+    "categoria_erro": "Parcial",
+    "gabarito": [
+      3,
+      4
+    ]
+  },
+  {
+    "termo_digitado": "Paracetamol",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "termo_digitado": "Paraectamol",
+    "categoria_erro": "Transposição",
+    "gabarito": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "termo_digitado": "Paracetanol",
+    "categoria_erro": "Teclado",
+    "gabarito": [
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "termo_digitado": "Dipirona",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      8,
+      9
+    ]
+  },
+  {
+    "termo_digitado": "Dipitona",
+    "categoria_erro": "Teclado",
+    "gabarito": [
+      8,
+      9
+    ]
+  },
+  {
+    "termo_digitado": "Losartana",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      10
+    ]
+  },
+  {
+    "termo_digitado": "Lossartana",
+    "categoria_erro": "Duplicação",
+    "gabarito": [
+      10
+    ]
+  },
+  {
+    "termo_digitado": "Omeprazol",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      11,
+      12
+    ]
+  },
+  {
+    "termo_digitado": "Omeprasol",
+    "categoria_erro": "Fonética",
+    "gabarito": [
+      11,
+      12
+    ]
+  },
+  {
+    "termo_digitado": "Simeticona",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      13,
+      14
+    ]
+  },
+  {
+    "termo_digitado": "Simiticona",
+    "categoria_erro": "Vogal átona",
+    "gabarito": [
+      13,
+      14
+    ]
+  },
+  {
+    "termo_digitado": "Loratadina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      15,
+      16
+    ]
+  },
+  {
+    "termo_digitado": "Koratadina",
+    "categoria_erro": "Teclado",
+    "gabarito": [
+      15,
+      16
+    ]
+  },
+  {
+    "termo_digitado": "Azitromicina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      17,
+      18
+    ]
+  },
+  {
+    "termo_digitado": "Asitromicina",
+    "categoria_erro": "Fonética",
+    "gabarito": [
+      17,
+      18
+    ]
+  },
+  {
+    "termo_digitado": "Nimesulida",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      19
+    ]
+  },
+  {
+    "termo_digitado": "Nimessulida",
+    "categoria_erro": "Duplicação",
+    "gabarito": [
+      19
+    ]
+  },
+  {
+    "termo_digitado": "Diclofenaco",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      20,
+      21
+    ]
+  },
+  {
+    "termo_digitado": "Diclofe",
+    "categoria_erro": "Parcial",
+    "gabarito": [
+      20,
+      21
+    ]
+  },
+  {
+    "termo_digitado": "Cetoconazol",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      22,
+      23
+    ]
+  },
+  {
+    "termo_digitado": "Setoconazol",
+    "categoria_erro": "Fonética",
+    "gabarito": [
+      22,
+      23
+    ]
+  },
+  {
+    "termo_digitado": "Sildenafila",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      24,
+      25
+    ]
+  },
+  {
+    "termo_digitado": "Sildenfila",
+    "categoria_erro": "Omissão",
+    "gabarito": [
+      24,
+      25
+    ]
+  },
+  {
+    "termo_digitado": "Tadalafila",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      26,
+      27
+    ]
+  },
+  {
+    "termo_digitado": "Tadalafial",
+    "categoria_erro": "Transposição",
+    "gabarito": [
+      26,
+      27
+    ]
+  },
+  {
+    "termo_digitado": "Pantoprazol",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      28,
+      29
+    ]
+  },
+  {
+    "termo_digitado": "Pantuprazol",
+    "categoria_erro": "Vogal átona",
+    "gabarito": [
+      28,
+      29
+    ]
+  },
+  {
+    "termo_digitado": "Ivermectina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      30
+    ]
+  },
+  {
+    "termo_digitado": "Ivemectina",
+    "categoria_erro": "Omissão",
+    "gabarito": [
+      30
+    ]
+  },
+  {
+    "termo_digitado": "Metformina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      31,
+      32
+    ]
+  },
+  {
+    "termo_digitado": "Merformina",
+    "categoria_erro": "Teclado",
+    "gabarito": [
+      31,
+      32
+    ]
+  },
+  {
+    "termo_digitado": "Clonazepam",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      33,
+      34
+    ]
+  },
+  {
+    "termo_digitado": "Clonaz",
+    "categoria_erro": "Parcial",
+    "gabarito": [
+      33,
+      34
+    ]
+  },
+  {
+    "termo_digitado": "Dopamina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      35
+    ]
+  },
+  {
+    "termo_digitado": "Doppamina",
+    "categoria_erro": "Duplicação",
+    "gabarito": [
+      35
+    ]
+  },
+  {
+    "termo_digitado": "Dobutamina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      36
+    ]
+  },
+  {
+    "termo_digitado": "Dobtuamina",
+    "categoria_erro": "Transposição",
+    "gabarito": [
+      36
+    ]
+  },
+  {
+    "termo_digitado": "Fluoxetina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      37
+    ]
+  },
+  {
+    "termo_digitado": "Fluixetina",
+    "categoria_erro": "Teclado",
+    "gabarito": [
+      37
+    ]
+  },
+  {
+    "termo_digitado": "Duloxetina",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      38,
+      39
+    ]
+  },
+  {
+    "termo_digitado": "Duxetina",
+    "categoria_erro": "Omissão",
+    "gabarito": [
+      38,
+      39
+    ]
+  },
+  {
+    "termo_digitado": "Aciclovir",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      40,
+      41
+    ]
+  },
+  {
+    "termo_digitado": "Assiclovir",
+    "categoria_erro": "Fonética",
+    "gabarito": [
+      40,
+      41
+    ]
+  },
+  {
+    "termo_digitado": "Ganciclovir",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      42
+    ]
+  },
+  {
+    "termo_digitado": "Ganceclovir",
+    "categoria_erro": "Vogal átona",
+    "gabarito": [
+      42
+    ]
+  },
+  {
+    "termo_digitado": "Prednisolona",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      43
+    ]
+  },
+  {
+    "termo_digitado": "Predni",
+    "categoria_erro": "Parcial",
+    "gabarito": [
+      43
+    ]
+  },
+  {
+    "termo_digitado": "Prednisona",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      44,
+      45
+    ]
+  },
+  {
+    "termo_digitado": "Prednissona",
+    "categoria_erro": "Duplicação",
+    "gabarito": [
+      44,
+      45
+    ]
+  },
+  {
+    "termo_digitado": "Ceftriaxona",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      46,
+      47
+    ]
+  },
+  {
+    "termo_digitado": "Cefitraxona",
+    "categoria_erro": "Transposição",
+    "gabarito": [
+      46,
+      47
+    ]
+  },
+  {
+    "termo_digitado": "Cefotaxima",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      48
+    ]
+  },
+  {
+    "termo_digitado": "Cefotaxma",
+    "categoria_erro": "Omissão",
+    "gabarito": [
+      48
+    ]
+  },
+  {
+    "termo_digitado": "Citalopram",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      49
+    ]
+  },
+  {
+    "termo_digitado": "Sitalopram",
+    "categoria_erro": "Fonética",
+    "gabarito": [
+      49
+    ]
+  },
+  {
+    "termo_digitado": "Escitalopram",
+    "categoria_erro": "Controle",
+    "gabarito": [
+      50,
+      51
+    ]
+  },
+  {
+    "termo_digitado": "Escitalo",
+    "categoria_erro": "Parcial",
+    "gabarito": [
+      50,
+      51
+    ]
+  }
+]

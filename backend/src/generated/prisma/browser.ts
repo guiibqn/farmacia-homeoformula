@@ -22,3 +22,8 @@ export * from './enums.js';
  * 
  */
 export type ProdutoTeste = Prisma.ProdutoTesteModel
+/**
+ * Model Medicamento
+ * 
+ */
+export type Medicamento = Prisma.MedicamentoModel

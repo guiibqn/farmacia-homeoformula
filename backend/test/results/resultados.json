@@ -1,0 +1,2698 @@
+{
+  "geradoEm": "2026-11-06T23:30:11.926Z",
+  "resumo": [
+    {
+      "modo": "exata",
+      "totalConsultas": 63,
+      "precisionMedia": 0.5502645502645502,
+      "recallMedio": 0.5714285714285714,
+      "f1": 0.5606469002695418,
+      "pctAcertoNoTopo": 57.14285714285714,
+      "pctGrupoControleOk": 100,
+      "falsosPositivosLasa": 0,
+      "tempoMedioMs": 4.887466857142858,
+      "tempoP95Ms": 6.401098,
+      "porCategoria": {
+        "Controle": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 30
+        },
+        "Vogal átona": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 4
+        },
+        "Parcial": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 6
+        },
+        "Omissão": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 5
+        },
+        "Transposição": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 4
+        },
+        "Teclado": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 5
+        },
+        "Duplicação": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 4
+        },
+        "Fonética": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "modo": "fonetica",
+      "totalConsultas": 63,
+      "precisionMedia": 0.7936507936507936,
+      "recallMedio": 0.7936507936507936,
+      "f1": 0.7936507936507936,
+      "pctAcertoNoTopo": 79.36507936507937,
+      "pctGrupoControleOk": 100,
+      "falsosPositivosLasa": 0,
+      "tempoMedioMs": 3.2454999365079362,
+      "tempoP95Ms": 3.903689,
+      "porCategoria": {
+        "Controle": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 30
+        },
+        "Vogal átona": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 4
+        },
+        "Parcial": {
+          "recallMedio": 0,
+          "pctAcertoNoTopo": 0,
+          "total": 6
+        },
+        "Omissão": {
+          "recallMedio": 0.6,
+          "pctAcertoNoTopo": 60,
+          "total": 5
+        },
+        "Transposição": {
+          "recallMedio": 0.75,
+          "pctAcertoNoTopo": 75,
+          "total": 4
+        },
+        "Teclado": {
+          "recallMedio": 0.2,
+          "pctAcertoNoTopo": 20,
+          "total": 5
+        },
+        "Duplicação": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 4
+        },
+        "Fonética": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 5
+        }
+      }
+    },
+    {
+      "modo": "hibrida",
+      "totalConsultas": 63,
+      "precisionMedia": 0.9168315811172953,
+      "recallMedio": 1,
+      "f1": 0.9566115146985282,
+      "pctAcertoNoTopo": 98.4126984126984,
+      "pctGrupoControleOk": 100,
+      "falsosPositivosLasa": 1,
+      "tempoMedioMs": 3.683875333333332,
+      "tempoP95Ms": 5.300358,
+      "porCategoria": {
+        "Controle": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 30
+        },
+        "Vogal átona": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 4
+        },
+        "Parcial": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 6
+        },
+        "Omissão": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 80,
+          "total": 5
+        },
+        "Transposição": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 4
+        },
+        "Teclado": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 5
+        },
+        "Duplicação": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 4
+        },
+        "Fonética": {
+          "recallMedio": 1,
+          "pctAcertoNoTopo": 100,
+          "total": 5
+        }
+      }
+    }
+  ],
+  "detalhes": {
+    "exata": [
+      {
+        "termo": "Ibuprofeno",
+        "categoria": "Controle",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 55.990531,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Iboprofeno",
+        "categoria": "Vogal átona",
+        "idsRetornados": [],
+        "tempoMs": 8.29116,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ibuprof",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 6.401098,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxicilina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 4.576647,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxilina",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 4.637058,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxi",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 3.818944,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paracetamol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          5,
+          6,
+          7
+        ],
+        "tempoMs": 4.63313,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paraectamol",
+        "categoria": "Transposição",
+        "idsRetornados": [],
+        "tempoMs": 5.325033,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paracetanol",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 5.499803,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dipirona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          8,
+          9
+        ],
+        "tempoMs": 5.599725,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dipitona",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 4.211551,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Losartana",
+        "categoria": "Controle",
+        "idsRetornados": [
+          10
+        ],
+        "tempoMs": 3.832839,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Lossartana",
+        "categoria": "Duplicação",
+        "idsRetornados": [],
+        "tempoMs": 4.044976,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Omeprazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          11,
+          12
+        ],
+        "tempoMs": 4.10712,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Omeprasol",
+        "categoria": "Fonética",
+        "idsRetornados": [],
+        "tempoMs": 4.465193,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Simeticona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          13,
+          14
+        ],
+        "tempoMs": 4.158343,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Simiticona",
+        "categoria": "Vogal átona",
+        "idsRetornados": [],
+        "tempoMs": 3.906694,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Loratadina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          15,
+          16
+        ],
+        "tempoMs": 3.93717,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Koratadina",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 4.004192,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Azitromicina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          17,
+          18
+        ],
+        "tempoMs": 3.671104,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Asitromicina",
+        "categoria": "Fonética",
+        "idsRetornados": [],
+        "tempoMs": 3.949101,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Nimesulida",
+        "categoria": "Controle",
+        "idsRetornados": [
+          19
+        ],
+        "tempoMs": 3.861541,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Nimessulida",
+        "categoria": "Duplicação",
+        "idsRetornados": [],
+        "tempoMs": 3.907004,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Diclofenaco",
+        "categoria": "Controle",
+        "idsRetornados": [
+          20,
+          21
+        ],
+        "tempoMs": 3.872331,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Diclofe",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          20,
+          21
+        ],
+        "tempoMs": 3.856331,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cetoconazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          22,
+          23
+        ],
+        "tempoMs": 3.398225,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Setoconazol",
+        "categoria": "Fonética",
+        "idsRetornados": [],
+        "tempoMs": 3.818122,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sildenafila",
+        "categoria": "Controle",
+        "idsRetornados": [
+          24,
+          25
+        ],
+        "tempoMs": 10.115201,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sildenfila",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 3.653121,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Tadalafila",
+        "categoria": "Controle",
+        "idsRetornados": [
+          26,
+          27
+        ],
+        "tempoMs": 4.033155,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Tadalafial",
+        "categoria": "Transposição",
+        "idsRetornados": [],
+        "tempoMs": 4.879069,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Pantoprazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          28,
+          29
+        ],
+        "tempoMs": 4.052179,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Pantuprazol",
+        "categoria": "Vogal átona",
+        "idsRetornados": [],
+        "tempoMs": 3.212066,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ivermectina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          30
+        ],
+        "tempoMs": 3.129585,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ivemectina",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 3.813955,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Metformina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          31,
+          32
+        ],
+        "tempoMs": 3.595576,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Merformina",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 3.46683,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Clonazepam",
+        "categoria": "Controle",
+        "idsRetornados": [
+          33,
+          34
+        ],
+        "tempoMs": 3.7348,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Clonaz",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          33,
+          34
+        ],
+        "tempoMs": 3.52715,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dopamina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          35
+        ],
+        "tempoMs": 3.592049,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Doppamina",
+        "categoria": "Duplicação",
+        "idsRetornados": [],
+        "tempoMs": 3.572042,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dobutamina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          36
+        ],
+        "tempoMs": 3.383799,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dobtuamina",
+        "categoria": "Transposição",
+        "idsRetornados": [],
+        "tempoMs": 3.782697,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Fluoxetina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          37
+        ],
+        "tempoMs": 4.31539,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Fluixetina",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 3.374662,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Duloxetina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          38,
+          39
+        ],
+        "tempoMs": 3.177813,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Duxetina",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 3.369262,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Aciclovir",
+        "categoria": "Controle",
+        "idsRetornados": [
+          40,
+          41
+        ],
+        "tempoMs": 3.124535,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Assiclovir",
+        "categoria": "Fonética",
+        "idsRetornados": [],
+        "tempoMs": 3.885595,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ganciclovir",
+        "categoria": "Controle",
+        "idsRetornados": [
+          42
+        ],
+        "tempoMs": 3.552186,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ganceclovir",
+        "categoria": "Vogal átona",
+        "idsRetornados": [],
+        "tempoMs": 3.441805,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednisolona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          43
+        ],
+        "tempoMs": 3.752652,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Predni",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          43,
+          44,
+          45
+        ],
+        "tempoMs": 3.629658,
+        "precision": 0.3333333333333333,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednisona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          44,
+          45
+        ],
+        "tempoMs": 3.640357,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednissona",
+        "categoria": "Duplicação",
+        "idsRetornados": [],
+        "tempoMs": 3.495533,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ceftriaxona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          46,
+          47
+        ],
+        "tempoMs": 3.359555,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefitraxona",
+        "categoria": "Transposição",
+        "idsRetornados": [],
+        "tempoMs": 3.371727,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefotaxima",
+        "categoria": "Controle",
+        "idsRetornados": [
+          48
+        ],
+        "tempoMs": 3.557396,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefotaxma",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 3.683035,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Citalopram",
+        "categoria": "Controle",
+        "idsRetornados": [
+          49,
+          50,
+          51
+        ],
+        "tempoMs": 3.338557,
+        "precision": 0.3333333333333333,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sitalopram",
+        "categoria": "Fonética",
+        "idsRetornados": [],
+        "tempoMs": 3.667206,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Escitalopram",
+        "categoria": "Controle",
+        "idsRetornados": [
+          50,
+          51
+        ],
+        "tempoMs": 3.255956,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Escitalo",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          50,
+          51
+        ],
+        "tempoMs": 3.599292,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      }
+    ],
+    "fonetica": [
+      {
+        "termo": "Ibuprofeno",
+        "categoria": "Controle",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 4.184842,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Iboprofeno",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 3.487098,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ibuprof",
+        "categoria": "Parcial",
+        "idsRetornados": [],
+        "tempoMs": 3.045551,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxicilina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 3.130497,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxilina",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 3.157947,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxi",
+        "categoria": "Parcial",
+        "idsRetornados": [],
+        "tempoMs": 3.090513,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paracetamol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          5,
+          6,
+          7
+        ],
+        "tempoMs": 3.069154,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paraectamol",
+        "categoria": "Transposição",
+        "idsRetornados": [],
+        "tempoMs": 3.08878,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paracetanol",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 3.353293,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dipirona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          8,
+          9
+        ],
+        "tempoMs": 3.179727,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dipitona",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 3.594414,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Losartana",
+        "categoria": "Controle",
+        "idsRetornados": [
+          10
+        ],
+        "tempoMs": 3.271855,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Lossartana",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          10
+        ],
+        "tempoMs": 3.096775,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Omeprazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          11,
+          12
+        ],
+        "tempoMs": 3.150833,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Omeprasol",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          11,
+          12
+        ],
+        "tempoMs": 2.916235,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Simeticona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          13,
+          14
+        ],
+        "tempoMs": 3.116351,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Simiticona",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          13,
+          14
+        ],
+        "tempoMs": 3.349526,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Loratadina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          15,
+          16
+        ],
+        "tempoMs": 3.165761,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Koratadina",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 3.065588,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Azitromicina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          17,
+          18
+        ],
+        "tempoMs": 3.30718,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Asitromicina",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          17,
+          18
+        ],
+        "tempoMs": 3.019493,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Nimesulida",
+        "categoria": "Controle",
+        "idsRetornados": [
+          19
+        ],
+        "tempoMs": 3.069305,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Nimessulida",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          19
+        ],
+        "tempoMs": 3.655856,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Diclofenaco",
+        "categoria": "Controle",
+        "idsRetornados": [
+          20,
+          21
+        ],
+        "tempoMs": 3.163777,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Diclofe",
+        "categoria": "Parcial",
+        "idsRetornados": [],
+        "tempoMs": 3.048377,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cetoconazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          22,
+          23
+        ],
+        "tempoMs": 3.006229,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Setoconazol",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          22,
+          23
+        ],
+        "tempoMs": 3.060459,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sildenafila",
+        "categoria": "Controle",
+        "idsRetornados": [
+          24,
+          25
+        ],
+        "tempoMs": 3.034562,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sildenfila",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          24,
+          25
+        ],
+        "tempoMs": 3.013733,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Tadalafila",
+        "categoria": "Controle",
+        "idsRetornados": [
+          26,
+          27
+        ],
+        "tempoMs": 3.519456,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Tadalafial",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          26,
+          27
+        ],
+        "tempoMs": 3.163186,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Pantoprazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          28,
+          29
+        ],
+        "tempoMs": 3.903689,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Pantuprazol",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          28,
+          29
+        ],
+        "tempoMs": 4.205159,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ivermectina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          30
+        ],
+        "tempoMs": 3.049889,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ivemectina",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 3.518324,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Metformina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          31,
+          32
+        ],
+        "tempoMs": 3.465839,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Merformina",
+        "categoria": "Teclado",
+        "idsRetornados": [],
+        "tempoMs": 3.23098,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Clonazepam",
+        "categoria": "Controle",
+        "idsRetornados": [
+          33,
+          34
+        ],
+        "tempoMs": 3.384209,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Clonaz",
+        "categoria": "Parcial",
+        "idsRetornados": [],
+        "tempoMs": 3.640408,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dopamina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          35
+        ],
+        "tempoMs": 4.148696,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Doppamina",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          35
+        ],
+        "tempoMs": 3.217706,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dobutamina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          36
+        ],
+        "tempoMs": 3.082388,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dobtuamina",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          36
+        ],
+        "tempoMs": 3.018552,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Fluoxetina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          37
+        ],
+        "tempoMs": 3.149631,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Fluixetina",
+        "categoria": "Teclado",
+        "idsRetornados": [
+          37
+        ],
+        "tempoMs": 3.513025,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Duloxetina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          38,
+          39
+        ],
+        "tempoMs": 3.114798,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Duxetina",
+        "categoria": "Omissão",
+        "idsRetornados": [],
+        "tempoMs": 3.191929,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Aciclovir",
+        "categoria": "Controle",
+        "idsRetornados": [
+          40,
+          41
+        ],
+        "tempoMs": 3.517564,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Assiclovir",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          40,
+          41
+        ],
+        "tempoMs": 3.42243,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ganciclovir",
+        "categoria": "Controle",
+        "idsRetornados": [
+          42
+        ],
+        "tempoMs": 3.178895,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ganceclovir",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          42
+        ],
+        "tempoMs": 3.470357,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednisolona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          43
+        ],
+        "tempoMs": 3.179205,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Predni",
+        "categoria": "Parcial",
+        "idsRetornados": [],
+        "tempoMs": 3.227914,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednisona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          44,
+          45
+        ],
+        "tempoMs": 2.977597,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednissona",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          44,
+          45
+        ],
+        "tempoMs": 3.087799,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ceftriaxona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          46,
+          47
+        ],
+        "tempoMs": 2.969081,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefitraxona",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          46,
+          47
+        ],
+        "tempoMs": 3.093639,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefotaxima",
+        "categoria": "Controle",
+        "idsRetornados": [
+          48
+        ],
+        "tempoMs": 2.68913,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefotaxma",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          48
+        ],
+        "tempoMs": 2.603043,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Citalopram",
+        "categoria": "Controle",
+        "idsRetornados": [
+          49
+        ],
+        "tempoMs": 3.385612,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sitalopram",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          49
+        ],
+        "tempoMs": 2.898803,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Escitalopram",
+        "categoria": "Controle",
+        "idsRetornados": [
+          50,
+          51
+        ],
+        "tempoMs": 2.958041,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Escitalo",
+        "categoria": "Parcial",
+        "idsRetornados": [],
+        "tempoMs": 3.395811,
+        "precision": 0,
+        "recall": 0,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      }
+    ],
+    "hibrida": [
+      {
+        "termo": "Ibuprofeno",
+        "categoria": "Controle",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 3.622565,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Iboprofeno",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 4.64398,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ibuprof",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          1,
+          2
+        ],
+        "tempoMs": 7.873818,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxicilina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 3.524456,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxilina",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 3.724792,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Amoxi",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          3,
+          4
+        ],
+        "tempoMs": 4.655231,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paracetamol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          5,
+          6,
+          7
+        ],
+        "tempoMs": 3.399327,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paraectamol",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          5,
+          6,
+          7
+        ],
+        "tempoMs": 4.669997,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Paracetanol",
+        "categoria": "Teclado",
+        "idsRetornados": [
+          5,
+          6,
+          7
+        ],
+        "tempoMs": 5.61298,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dipirona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          8,
+          9
+        ],
+        "tempoMs": 3.266445,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dipitona",
+        "categoria": "Teclado",
+        "idsRetornados": [
+          8,
+          9,
+          13,
+          14,
+          20,
+          21,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "tempoMs": 5.239858,
+        "precision": 0.18181818181818182,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Losartana",
+        "categoria": "Controle",
+        "idsRetornados": [
+          10
+        ],
+        "tempoMs": 3.0944,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Lossartana",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          10
+        ],
+        "tempoMs": 3.044569,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Omeprazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          11,
+          12
+        ],
+        "tempoMs": 2.958412,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Omeprasol",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          11,
+          12
+        ],
+        "tempoMs": 3.43364,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Simeticona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          13,
+          14
+        ],
+        "tempoMs": 2.596071,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Simiticona",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          13,
+          14
+        ],
+        "tempoMs": 3.180498,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Loratadina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          15,
+          16
+        ],
+        "tempoMs": 3.180628,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Koratadina",
+        "categoria": "Teclado",
+        "idsRetornados": [
+          15,
+          16
+        ],
+        "tempoMs": 4.482125,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Azitromicina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          17,
+          18
+        ],
+        "tempoMs": 3.313731,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Asitromicina",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          17,
+          18
+        ],
+        "tempoMs": 3.25864,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Nimesulida",
+        "categoria": "Controle",
+        "idsRetornados": [
+          19
+        ],
+        "tempoMs": 3.016718,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Nimessulida",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          19
+        ],
+        "tempoMs": 3.234898,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Diclofenaco",
+        "categoria": "Controle",
+        "idsRetornados": [
+          20,
+          21
+        ],
+        "tempoMs": 2.975514,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Diclofe",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          20,
+          21,
+          8,
+          9,
+          40,
+          41,
+          42
+        ],
+        "tempoMs": 4.406236,
+        "precision": 0.2857142857142857,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cetoconazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          22,
+          23
+        ],
+        "tempoMs": 2.804842,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Setoconazol",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          22,
+          23
+        ],
+        "tempoMs": 3.060148,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sildenafila",
+        "categoria": "Controle",
+        "idsRetornados": [
+          24,
+          25
+        ],
+        "tempoMs": 3.283827,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sildenfila",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          24,
+          25
+        ],
+        "tempoMs": 3.320103,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Tadalafila",
+        "categoria": "Controle",
+        "idsRetornados": [
+          26,
+          27
+        ],
+        "tempoMs": 3.107995,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Tadalafial",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          26,
+          27
+        ],
+        "tempoMs": 3.087639,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Pantoprazol",
+        "categoria": "Controle",
+        "idsRetornados": [
+          28,
+          29
+        ],
+        "tempoMs": 3.037366,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Pantuprazol",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          28,
+          29
+        ],
+        "tempoMs": 3.831827,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ivermectina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          30
+        ],
+        "tempoMs": 4.404503,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ivemectina",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          30,
+          37,
+          38,
+          39
+        ],
+        "tempoMs": 5.228227,
+        "precision": 0.25,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Metformina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          31,
+          32
+        ],
+        "tempoMs": 2.824748,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Merformina",
+        "categoria": "Teclado",
+        "idsRetornados": [
+          31,
+          32,
+          35,
+          36
+        ],
+        "tempoMs": 5.300358,
+        "precision": 0.5,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Clonazepam",
+        "categoria": "Controle",
+        "idsRetornados": [
+          33,
+          34
+        ],
+        "tempoMs": 2.682428,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Clonaz",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          33,
+          34,
+          22,
+          23,
+          43
+        ],
+        "tempoMs": 4.174873,
+        "precision": 0.4,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dopamina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          35
+        ],
+        "tempoMs": 2.728382,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Doppamina",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          35
+        ],
+        "tempoMs": 3.528844,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dobutamina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          36
+        ],
+        "tempoMs": 8.775745,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Dobtuamina",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          36
+        ],
+        "tempoMs": 2.986103,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Fluoxetina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          37
+        ],
+        "tempoMs": 3.177232,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Fluixetina",
+        "categoria": "Teclado",
+        "idsRetornados": [
+          37
+        ],
+        "tempoMs": 3.272877,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Duloxetina",
+        "categoria": "Controle",
+        "idsRetornados": [
+          38,
+          39
+        ],
+        "tempoMs": 3.421838,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Duxetina",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          37,
+          38,
+          39,
+          30,
+          3,
+          4,
+          15,
+          16,
+          17,
+          18,
+          31,
+          32,
+          35,
+          36
+        ],
+        "tempoMs": 4.949017,
+        "precision": 0.14285714285714285,
+        "recall": 1,
+        "acertoNoTopo": false,
+        "isControle": false,
+        "falsoPositivoLasa": true
+      },
+      {
+        "termo": "Aciclovir",
+        "categoria": "Controle",
+        "idsRetornados": [
+          40,
+          41
+        ],
+        "tempoMs": 3.097757,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Assiclovir",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          40,
+          41
+        ],
+        "tempoMs": 3.08316,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ganciclovir",
+        "categoria": "Controle",
+        "idsRetornados": [
+          42
+        ],
+        "tempoMs": 2.920903,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ganceclovir",
+        "categoria": "Vogal átona",
+        "idsRetornados": [
+          42
+        ],
+        "tempoMs": 3.214179,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednisolona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          43
+        ],
+        "tempoMs": 3.070848,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Predni",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          43,
+          44,
+          45
+        ],
+        "tempoMs": 4.463431,
+        "precision": 0.3333333333333333,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednisona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          44,
+          45
+        ],
+        "tempoMs": 3.056381,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Prednissona",
+        "categoria": "Duplicação",
+        "idsRetornados": [
+          44,
+          45
+        ],
+        "tempoMs": 3.063393,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Ceftriaxona",
+        "categoria": "Controle",
+        "idsRetornados": [
+          46,
+          47
+        ],
+        "tempoMs": 3.169257,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefitraxona",
+        "categoria": "Transposição",
+        "idsRetornados": [
+          46,
+          47
+        ],
+        "tempoMs": 3.397915,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefotaxima",
+        "categoria": "Controle",
+        "idsRetornados": [
+          48
+        ],
+        "tempoMs": 3.081106,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Cefotaxma",
+        "categoria": "Omissão",
+        "idsRetornados": [
+          48
+        ],
+        "tempoMs": 3.084793,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Citalopram",
+        "categoria": "Controle",
+        "idsRetornados": [
+          49
+        ],
+        "tempoMs": 3.146505,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Sitalopram",
+        "categoria": "Fonética",
+        "idsRetornados": [
+          49
+        ],
+        "tempoMs": 3.053416,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Escitalopram",
+        "categoria": "Controle",
+        "idsRetornados": [
+          50,
+          51
+        ],
+        "tempoMs": 3.254743,
+        "precision": 1,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": true,
+        "falsoPositivoLasa": false
+      },
+      {
+        "termo": "Escitalo",
+        "categoria": "Parcial",
+        "idsRetornados": [
+          50,
+          51,
+          49
+        ],
+        "tempoMs": 4.527908,
+        "precision": 0.6666666666666666,
+        "recall": 1,
+        "acertoNoTopo": true,
+        "isControle": false,
+        "falsoPositivoLasa": false
+      }
+    ]
+  }
+}

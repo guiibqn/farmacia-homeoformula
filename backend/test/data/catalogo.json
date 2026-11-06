@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "nome": "Ibuprofeno 400 mg",
+    "principio_ativo": "Ibuprofeno"
+  },
+  {
+    "id": 2,
+    "nome": "Ibuprofeno 600 mg",
+    "principio_ativo": "Ibuprofeno"
+  },
+  {
+    "id": 3,
+    "nome": "Amoxicilina 500 mg",
+    "principio_ativo": "Amoxicilina"
+  },
+  {
+    "id": 4,
+    "nome": "Amoxicilina 250 mg/5ml",
+    "principio_ativo": "Amoxicilina"
+  },
+  {
+    "id": 5,
+    "nome": "Paracetamol 750 mg",
+    "principio_ativo": "Paracetamol"
+  },
+  {
+    "id": 6,
+    "nome": "Paracetamol 500 mg",
+    "principio_ativo": "Paracetamol"
+  },
+  {
+    "id": 7,
+    "nome": "Paracetamol Gotas",
+    "principio_ativo": "Paracetamol"
+  },
+  {
+    "id": 8,
+    "nome": "Dipirona 500 mg",
+    "principio_ativo": "Dipirona"
+  },
+  {
+    "id": 9,
+    "nome": "Dipirona 1g",
+    "principio_ativo": "Dipirona"
+  },
+  {
+    "id": 10,
+    "nome": "Losartana Potássica 50 mg",
+    "principio_ativo": "Losartana"
+  },
+  {
+    "id": 11,
+    "nome": "Omeprazol 20 mg",
+    "principio_ativo": "Omeprazol"
+  },
+  {
+    "id": 12,
+    "nome": "Omeprazol 40 mg",
+    "principio_ativo": "Omeprazol"
+  },
+  {
+    "id": 13,
+    "nome": "Simeticona 40 mg",
+    "principio_ativo": "Simeticona"
+  },
+  {
+    "id": 14,
+    "nome": "Simeticona 75 mg/ml",
+    "principio_ativo": "Simeticona"
+  },
+  {
+    "id": 15,
+    "nome": "Loratadina 10 mg",
+    "principio_ativo": "Loratadina"
+  },
+  {
+    "id": 16,
+    "nome": "Loratadina Xarope",
+    "principio_ativo": "Loratadina"
+  },
+  {
+    "id": 17,
+    "nome": "Azitromicina 500 mg",
+    "principio_ativo": "Azitromicina"
+  },
+  {
+    "id": 18,
+    "nome": "Azitromicina Pó para Suspensão",
+    "principio_ativo": "Azitromicina"
+  },
+  {
+    "id": 19,
+    "nome": "Nimesulida 100 mg",
+    "principio_ativo": "Nimesulida"
+  },
+  {
+    "id": 20,
+    "nome": "Diclofenaco de Sódio 50 mg",
+    "principio_ativo": "Diclofenaco"
+  },
+  {
+    "id": 21,
+    "nome": "Diclofenaco Potássico 50 mg",
+    "principio_ativo": "Diclofenaco"
+  },
+  {
+    "id": 22,
+    "nome": "Cetoconazol Creme 20 mg/g",
+    "principio_ativo": "Cetoconazol"
+  },
+  {
+    "id": 23,
+    "nome": "Cetoconazol 200 mg",
+    "principio_ativo": "Cetoconazol"
+  },
+  {
+    "id": 24,
+    "nome": "Sildenafila 50 mg",
+    "principio_ativo": "Sildenafila"
+  },
+  {
+    "id": 25,
+    "nome": "Sildenafila 100 mg",
+    "principio_ativo": "Sildenafila"
+  },
+  {
+    "id": 26,
+    "nome": "Tadalafila 5 mg",
+    "principio_ativo": "Tadalafila"
+  },
+  {
+    "id": 27,
+    "nome": "Tadalafila 20 mg",
+    "principio_ativo": "Tadalafila"
+  },
+  {
+    "id": 28,
+    "nome": "Pantoprazol 20 mg",
+    "principio_ativo": "Pantoprazol"
+  },
+  {
+    "id": 29,
+    "nome": "Pantoprazol 40 mg",
+    "principio_ativo": "Pantoprazol"
+  },
+  {
+    "id": 30,
+    "nome": "Ivermectina 6 mg",
+    "principio_ativo": "Ivermectina"
+  },
+  {
+    "id": 31,
+    "nome": "Metformina 500 mg",
+    "principio_ativo": "Metformina"
+  },
+  {
+    "id": 32,
+    "nome": "Metformina 850 mg",
+    "principio_ativo": "Metformina"
+  },
+  {
+    "id": 33,
+    "nome": "Clonazepam 2 mg",
+    "principio_ativo": "Clonazepam"
+  },
+  {
+    "id": 34,
+    "nome": "Clonazepam 2,5 mg/ml",
+    "principio_ativo": "Clonazepam"
+  },
+  {
+    "id": 35,
+    "nome": "Dopamina 5 mg/ml",
+    "principio_ativo": "Dopamina"
+  },
+  {
+    "id": 36,
+    "nome": "Dobutamina 12,5 mg/ml",
+    "principio_ativo": "Dobutamina"
+  },
+  {
+    "id": 37,
+    "nome": "Fluoxetina 20 mg",
+    "principio_ativo": "Fluoxetina"
+  },
+  {
+    "id": 38,
+    "nome": "Duloxetina 30 mg",
+    "principio_ativo": "Duloxetina"
+  },
+  {
+    "id": 39,
+    "nome": "Duloxetina 60 mg",
+    "principio_ativo": "Duloxetina"
+  },
+  {
+    "id": 40,
+    "nome": "Aciclovir 200 mg",
+    "principio_ativo": "Aciclovir"
+  },
+  {
+    "id": 41,
+    "nome": "Aciclovir Creme",
+    "principio_ativo": "Aciclovir"
+  },
+  {
+    "id": 42,
+    "nome": "Ganciclovir 250 mg",
+    "principio_ativo": "Ganciclovir"
+  },
+  {
+    "id": 43,
+    "nome": "Prednisolona 3 mg/ml",
+    "principio_ativo": "Prednisolona"
+  },
+  {
+    "id": 44,
+    "nome": "Prednisona 20 mg",
+    "principio_ativo": "Prednisona"
+  },
+  {
+    "id": 45,
+    "nome": "Prednisona 5 mg",
+    "principio_ativo": "Prednisona"
+  },
+  {
+    "id": 46,
+    "nome": "Ceftriaxona 1g IV",
+    "principio_ativo": "Ceftriaxona"
+  },
+  {
+    "id": 47,
+    "nome": "Ceftriaxona 500mg IM",
+    "principio_ativo": "Ceftriaxona"
+  },
+  {
+    "id": 48,
+    "nome": "Cefotaxima 1g",
+    "principio_ativo": "Cefotaxima"
+  },
+  {
+    "id": 49,
+    "nome": "Citalopram 20 mg",
+    "principio_ativo": "Citalopram"
+  },
+  {
+    "id": 50,
+    "nome": "Escitalopram 10 mg",
+    "principio_ativo": "Escitalopram"
+  },
+  {
+    "id": 51,
+    "nome": "Escitalopram 20 mg",
+    "principio_ativo": "Escitalopram"
+  }
+]

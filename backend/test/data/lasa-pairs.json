@@ -1,0 +1,26 @@
+[
+  {
+    "par": ["Dopamina", "Dobutamina"],
+    "fonte": "Vasopressor/inotrópico de UTI, grafia e som próximos; risco clássico de troca."
+  },
+  {
+    "par": ["Fluoxetina", "Duloxetina"],
+    "fonte": "Antidepressivos com sufixo -oxetina idêntico."
+  },
+  {
+    "par": ["Aciclovir", "Ganciclovir"],
+    "fonte": "Antivirais da mesma classe, nome do segundo contém o do primeiro."
+  },
+  {
+    "par": ["Prednisolona", "Prednisona"],
+    "fonte": "Corticoides com grafia quase idêntica, presente no Boletim ISMP Brasil (2014)."
+  },
+  {
+    "par": ["Citalopram", "Escitalopram"],
+    "fonte": "Antidepressivos, nome do segundo contém o do primeiro, citado no Boletim ISMP Brasil (2014)."
+  },
+  {
+    "par": ["Ceftriaxona", "Cefotaxima"],
+    "fonte": "Cefalosporinas; par citado no Boletim ISMP Brasil (2014)."
+  }
+]

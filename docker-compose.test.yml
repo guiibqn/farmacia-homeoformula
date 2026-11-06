@@ -1,0 +1,24 @@
+# Ambiente de testes automatizados da busca fonética (PCG - Entrega 2).
+# Isolado do docker-compose.yml principal (que usa credenciais de dev/produção)
+# para que qualquer membro da equipe, ou o servidor de integração contínua,
+# obtenha exatamente a mesma configuração ao rodar os testes.
+#
+# Uso:
+#   docker compose -f docker-compose.test.yml up -d
+#   cd backend
+#   export DATABASE_URL=postgresql://pcg_test:pcg_test@localhost:5556/farmacia_fonetica_test?schema=public
+#   npm run build
+#   node dist/prisma/seed.js
+#   NODE_OPTIONS=--experimental-vm-modules npx jest --config ./test/jest-e2e.json
+services:
+  postgres_test:
+    image: postgres:15-alpine
+    container_name: homeoformula_test_db
+    ports:
+      - '5556:5432'
+    environment:
+      POSTGRES_USER: pcg_test
+      POSTGRES_PASSWORD: pcg_test
+      POSTGRES_DB: farmacia_fonetica_test
+    tmpfs:
+      - /var/lib/postgresql/data

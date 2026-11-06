@@ -51,7 +51,8 @@ export const AnyNull = runtime.AnyNull
 
 
 export const ModelName = {
-  ProdutoTeste: 'ProdutoTeste'
+  ProdutoTeste: 'ProdutoTeste',
+  Medicamento: 'Medicamento'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -80,6 +81,16 @@ export const ProdutoTesteScalarFieldEnum = {
 } as const
 
 export type ProdutoTesteScalarFieldEnum = (typeof ProdutoTesteScalarFieldEnum)[keyof typeof ProdutoTesteScalarFieldEnum]
+
+
+export const MedicamentoScalarFieldEnum = {
+  id: 'id',
+  nome: 'nome',
+  principioAtivo: 'principioAtivo',
+  chaveFonetica: 'chaveFonetica'
+} as const
+
+export type MedicamentoScalarFieldEnum = (typeof MedicamentoScalarFieldEnum)[keyof typeof MedicamentoScalarFieldEnum]
 
 
 export const SortOrder = {

@@ -384,7 +384,8 @@ type FieldRefInputType<Model, FieldType> = Model extends never ? never : FieldRe
 
 
 export const ModelName = {
-  ProdutoTeste: 'ProdutoTeste'
+  ProdutoTeste: 'ProdutoTeste',
+  Medicamento: 'Medicamento'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -400,7 +401,7 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
     omit: GlobalOmitOptions
   }
   meta: {
-    modelProps: "produtoTeste"
+    modelProps: "produtoTeste" | "medicamento"
     txIsolationLevel: TransactionIsolationLevel
   }
   model: {
@@ -478,6 +479,80 @@ export type TypeMap<ExtArgs extends runtime.Types.Extensions.InternalArgs = runt
         }
       }
     }
+    Medicamento: {
+      payload: Prisma.$MedicamentoPayload<ExtArgs>
+      fields: Prisma.MedicamentoFieldRefs
+      operations: {
+        findUnique: {
+          args: Prisma.MedicamentoFindUniqueArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload> | null
+        }
+        findUniqueOrThrow: {
+          args: Prisma.MedicamentoFindUniqueOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>
+        }
+        findFirst: {
+          args: Prisma.MedicamentoFindFirstArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload> | null
+        }
+        findFirstOrThrow: {
+          args: Prisma.MedicamentoFindFirstOrThrowArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>
+        }
+        findMany: {
+          args: Prisma.MedicamentoFindManyArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>[]
+        }
+        create: {
+          args: Prisma.MedicamentoCreateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>
+        }
+        createMany: {
+          args: Prisma.MedicamentoCreateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        createManyAndReturn: {
+          args: Prisma.MedicamentoCreateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>[]
+        }
+        delete: {
+          args: Prisma.MedicamentoDeleteArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>
+        }
+        update: {
+          args: Prisma.MedicamentoUpdateArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>
+        }
+        deleteMany: {
+          args: Prisma.MedicamentoDeleteManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateMany: {
+          args: Prisma.MedicamentoUpdateManyArgs<ExtArgs>
+          result: BatchPayload
+        }
+        updateManyAndReturn: {
+          args: Prisma.MedicamentoUpdateManyAndReturnArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>[]
+        }
+        upsert: {
+          args: Prisma.MedicamentoUpsertArgs<ExtArgs>
+          result: runtime.Types.Utils.PayloadToResult<Prisma.$MedicamentoPayload>
+        }
+        aggregate: {
+          args: Prisma.MedicamentoAggregateArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.AggregateMedicamento>
+        }
+        groupBy: {
+          args: Prisma.MedicamentoGroupByArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MedicamentoGroupByOutputType>[]
+        }
+        count: {
+          args: Prisma.MedicamentoCountArgs<ExtArgs>
+          result: runtime.Types.Utils.Optional<Prisma.MedicamentoCountAggregateOutputType> | number
+        }
+      }
+    }
   }
 } & {
   other: {
@@ -527,6 +602,16 @@ export const ProdutoTesteScalarFieldEnum = {
 } as const
 
 export type ProdutoTesteScalarFieldEnum = (typeof ProdutoTesteScalarFieldEnum)[keyof typeof ProdutoTesteScalarFieldEnum]
+
+
+export const MedicamentoScalarFieldEnum = {
+  id: 'id',
+  nome: 'nome',
+  principioAtivo: 'principioAtivo',
+  chaveFonetica: 'chaveFonetica'
+} as const
+
+export type MedicamentoScalarFieldEnum = (typeof MedicamentoScalarFieldEnum)[keyof typeof MedicamentoScalarFieldEnum]
 
 
 export const SortOrder = {
@@ -724,6 +809,7 @@ export type PrismaClientOptions = ({
 }
 export type GlobalOmitConfig = {
   produtoTeste?: Prisma.ProdutoTesteOmit
+  medicamento?: Prisma.MedicamentoOmit
 }
 
 /* Types for Logging */
