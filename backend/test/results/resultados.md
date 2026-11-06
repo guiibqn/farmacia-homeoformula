@@ -1,12 +1,12 @@
 # Resultados da experimentação - Busca fonética (PCG Entrega 2)
 
-Gerado em: 2026-11-06T23:30:11.926Z
+Gerado em: 2026-11-06T23:37:19.416Z
 
 | Modo | Recall | Precision | F1 | Acerto no topo | Grupo controle | Falso + LASA | Tempo médio (ms) | P95 (ms) |
 |---|---|---|---|---|---|---|---|---|
-| exata | 0.571 | 0.550 | 0.561 | 57.1% | 100.0% | 0 | 4.89 | 6.40 |
-| fonetica | 0.794 | 0.794 | 0.794 | 79.4% | 100.0% | 0 | 3.25 | 3.90 |
-| hibrida | 1.000 | 0.917 | 0.957 | 98.4% | 100.0% | 1 | 3.68 | 5.30 |
+| exata | 0.571 | 0.550 | 0.561 | 57.1% | 100.0% | 0 | 4.76 | 5.57 |
+| fonetica | 0.794 | 0.794 | 0.794 | 79.4% | 100.0% | 0 | 3.20 | 4.15 |
+| hibrida | 1.000 | 0.917 | 0.957 | 100.0% | 100.0% | 0 | 3.58 | 5.56 |
 
 ## Recall por categoria de erro
 

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-06T23:30:11.926Z",
+  "geradoEm": "2026-11-06T23:37:19.416Z",
   "resumo": [
     {
       "modo": "exata",
@@ -10,8 +10,8 @@
       "pctAcertoNoTopo": 57.14285714285714,
       "pctGrupoControleOk": 100,
       "falsosPositivosLasa": 0,
-      "tempoMedioMs": 4.887466857142858,
-      "tempoP95Ms": 6.401098,
+      "tempoMedioMs": 4.757795063492065,
+      "tempoP95Ms": 5.567496,
       "porCategoria": {
         "Controle": {
           "recallMedio": 1,
@@ -64,8 +64,8 @@
       "pctAcertoNoTopo": 79.36507936507937,
       "pctGrupoControleOk": 100,
       "falsosPositivosLasa": 0,
-      "tempoMedioMs": 3.2454999365079362,
-      "tempoP95Ms": 3.903689,
+      "tempoMedioMs": 3.200537777777778,
+      "tempoP95Ms": 4.149556,
       "porCategoria": {
         "Controle": {
           "recallMedio": 1,
@@ -115,11 +115,11 @@
       "precisionMedia": 0.9168315811172953,
       "recallMedio": 1,
       "f1": 0.9566115146985282,
-      "pctAcertoNoTopo": 98.4126984126984,
+      "pctAcertoNoTopo": 100,
       "pctGrupoControleOk": 100,
-      "falsosPositivosLasa": 1,
-      "tempoMedioMs": 3.683875333333332,
-      "tempoP95Ms": 5.300358,
+      "falsosPositivosLasa": 0,
+      "tempoMedioMs": 3.5774011904761913,
+      "tempoP95Ms": 5.556736,
       "porCategoria": {
         "Controle": {
           "recallMedio": 1,
@@ -138,7 +138,7 @@
         },
         "Omissão": {
           "recallMedio": 1,
-          "pctAcertoNoTopo": 80,
+          "pctAcertoNoTopo": 100,
           "total": 5
         },
         "Transposição": {
@@ -173,7 +173,7 @@
           1,
           2
         ],
-        "tempoMs": 55.990531,
+        "tempoMs": 53.753328,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -184,7 +184,7 @@
         "termo": "Iboprofeno",
         "categoria": "Vogal átona",
         "idsRetornados": [],
-        "tempoMs": 8.29116,
+        "tempoMs": 6.114914,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -198,7 +198,7 @@
           1,
           2
         ],
-        "tempoMs": 6.401098,
+        "tempoMs": 5.018924,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -212,7 +212,7 @@
           3,
           4
         ],
-        "tempoMs": 4.576647,
+        "tempoMs": 5.40906,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -223,7 +223,7 @@
         "termo": "Amoxilina",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 4.637058,
+        "tempoMs": 5.255364,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -237,7 +237,7 @@
           3,
           4
         ],
-        "tempoMs": 3.818944,
+        "tempoMs": 4.852714,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -252,7 +252,7 @@
           6,
           7
         ],
-        "tempoMs": 4.63313,
+        "tempoMs": 5.212394,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -263,7 +263,7 @@
         "termo": "Paraectamol",
         "categoria": "Transposição",
         "idsRetornados": [],
-        "tempoMs": 5.325033,
+        "tempoMs": 4.520987,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -274,7 +274,7 @@
         "termo": "Paracetanol",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 5.499803,
+        "tempoMs": 5.567496,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -288,7 +288,7 @@
           8,
           9
         ],
-        "tempoMs": 5.599725,
+        "tempoMs": 4.870779,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -299,7 +299,7 @@
         "termo": "Dipitona",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 4.211551,
+        "tempoMs": 4.229474,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -312,7 +312,7 @@
         "idsRetornados": [
           10
         ],
-        "tempoMs": 3.832839,
+        "tempoMs": 4.717603,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -323,7 +323,7 @@
         "termo": "Lossartana",
         "categoria": "Duplicação",
         "idsRetornados": [],
-        "tempoMs": 4.044976,
+        "tempoMs": 4.917816,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -337,7 +337,7 @@
           11,
           12
         ],
-        "tempoMs": 4.10712,
+        "tempoMs": 4.44176,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -348,7 +348,7 @@
         "termo": "Omeprasol",
         "categoria": "Fonética",
         "idsRetornados": [],
-        "tempoMs": 4.465193,
+        "tempoMs": 4.514234,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -362,7 +362,7 @@
           13,
           14
         ],
-        "tempoMs": 4.158343,
+        "tempoMs": 4.567454,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -373,7 +373,7 @@
         "termo": "Simiticona",
         "categoria": "Vogal átona",
         "idsRetornados": [],
-        "tempoMs": 3.906694,
+        "tempoMs": 4.107888,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -387,7 +387,7 @@
           15,
           16
         ],
-        "tempoMs": 3.93717,
+        "tempoMs": 3.925669,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -398,7 +398,7 @@
         "termo": "Koratadina",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 4.004192,
+        "tempoMs": 3.780369,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -412,7 +412,7 @@
           17,
           18
         ],
-        "tempoMs": 3.671104,
+        "tempoMs": 3.968548,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -423,7 +423,7 @@
         "termo": "Asitromicina",
         "categoria": "Fonética",
         "idsRetornados": [],
-        "tempoMs": 3.949101,
+        "tempoMs": 4.61409,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -436,7 +436,7 @@
         "idsRetornados": [
           19
         ],
-        "tempoMs": 3.861541,
+        "tempoMs": 4.999668,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -447,7 +447,7 @@
         "termo": "Nimessulida",
         "categoria": "Duplicação",
         "idsRetornados": [],
-        "tempoMs": 3.907004,
+        "tempoMs": 3.783164,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -461,7 +461,7 @@
           20,
           21
         ],
-        "tempoMs": 3.872331,
+        "tempoMs": 3.363472,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -475,7 +475,7 @@
           20,
           21
         ],
-        "tempoMs": 3.856331,
+        "tempoMs": 4.38813,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -489,7 +489,7 @@
           22,
           23
         ],
-        "tempoMs": 3.398225,
+        "tempoMs": 3.467967,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -500,7 +500,7 @@
         "termo": "Setoconazol",
         "categoria": "Fonética",
         "idsRetornados": [],
-        "tempoMs": 3.818122,
+        "tempoMs": 3.056511,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -514,7 +514,7 @@
           24,
           25
         ],
-        "tempoMs": 10.115201,
+        "tempoMs": 3.500979,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -525,7 +525,7 @@
         "termo": "Sildenfila",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 3.653121,
+        "tempoMs": 9.947791,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -539,7 +539,7 @@
           26,
           27
         ],
-        "tempoMs": 4.033155,
+        "tempoMs": 3.369664,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -550,7 +550,7 @@
         "termo": "Tadalafial",
         "categoria": "Transposição",
         "idsRetornados": [],
-        "tempoMs": 4.879069,
+        "tempoMs": 3.687064,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -564,7 +564,7 @@
           28,
           29
         ],
-        "tempoMs": 4.052179,
+        "tempoMs": 3.542326,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -575,7 +575,7 @@
         "termo": "Pantuprazol",
         "categoria": "Vogal átona",
         "idsRetornados": [],
-        "tempoMs": 3.212066,
+        "tempoMs": 3.827977,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -588,7 +588,7 @@
         "idsRetornados": [
           30
         ],
-        "tempoMs": 3.129585,
+        "tempoMs": 3.644746,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -599,7 +599,7 @@
         "termo": "Ivemectina",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 3.813955,
+        "tempoMs": 3.178789,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -613,7 +613,7 @@
           31,
           32
         ],
-        "tempoMs": 3.595576,
+        "tempoMs": 3.262544,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -624,7 +624,7 @@
         "termo": "Merformina",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 3.46683,
+        "tempoMs": 3.266682,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -638,7 +638,7 @@
           33,
           34
         ],
-        "tempoMs": 3.7348,
+        "tempoMs": 3.500407,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -652,7 +652,7 @@
           33,
           34
         ],
-        "tempoMs": 3.52715,
+        "tempoMs": 3.820212,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -665,7 +665,7 @@
         "idsRetornados": [
           35
         ],
-        "tempoMs": 3.592049,
+        "tempoMs": 3.730455,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -676,7 +676,7 @@
         "termo": "Doppamina",
         "categoria": "Duplicação",
         "idsRetornados": [],
-        "tempoMs": 3.572042,
+        "tempoMs": 3.346971,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -689,7 +689,7 @@
         "idsRetornados": [
           36
         ],
-        "tempoMs": 3.383799,
+        "tempoMs": 3.27142,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -700,7 +700,7 @@
         "termo": "Dobtuamina",
         "categoria": "Transposição",
         "idsRetornados": [],
-        "tempoMs": 3.782697,
+        "tempoMs": 3.450163,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -713,7 +713,7 @@
         "idsRetornados": [
           37
         ],
-        "tempoMs": 4.31539,
+        "tempoMs": 3.153641,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -724,7 +724,7 @@
         "termo": "Fluixetina",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 3.374662,
+        "tempoMs": 3.160244,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -738,7 +738,7 @@
           38,
           39
         ],
-        "tempoMs": 3.177813,
+        "tempoMs": 3.139035,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -749,7 +749,7 @@
         "termo": "Duxetina",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 3.369262,
+        "tempoMs": 3.65774,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -763,7 +763,7 @@
           40,
           41
         ],
-        "tempoMs": 3.124535,
+        "tempoMs": 3.359645,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -774,7 +774,7 @@
         "termo": "Assiclovir",
         "categoria": "Fonética",
         "idsRetornados": [],
-        "tempoMs": 3.885595,
+        "tempoMs": 3.22264,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -787,7 +787,7 @@
         "idsRetornados": [
           42
         ],
-        "tempoMs": 3.552186,
+        "tempoMs": 3.628255,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -798,7 +798,7 @@
         "termo": "Ganceclovir",
         "categoria": "Vogal átona",
         "idsRetornados": [],
-        "tempoMs": 3.441805,
+        "tempoMs": 3.439043,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -811,7 +811,7 @@
         "idsRetornados": [
           43
         ],
-        "tempoMs": 3.752652,
+        "tempoMs": 3.278164,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -826,7 +826,7 @@
           44,
           45
         ],
-        "tempoMs": 3.629658,
+        "tempoMs": 3.348956,
         "precision": 0.3333333333333333,
         "recall": 1,
         "acertoNoTopo": true,
@@ -840,7 +840,7 @@
           44,
           45
         ],
-        "tempoMs": 3.640357,
+        "tempoMs": 2.873109,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -851,7 +851,7 @@
         "termo": "Prednissona",
         "categoria": "Duplicação",
         "idsRetornados": [],
-        "tempoMs": 3.495533,
+        "tempoMs": 3.208454,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -865,7 +865,7 @@
           46,
           47
         ],
-        "tempoMs": 3.359555,
+        "tempoMs": 3.148011,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -876,7 +876,7 @@
         "termo": "Cefitraxona",
         "categoria": "Transposição",
         "idsRetornados": [],
-        "tempoMs": 3.371727,
+        "tempoMs": 3.134075,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -889,7 +889,7 @@
         "idsRetornados": [
           48
         ],
-        "tempoMs": 3.557396,
+        "tempoMs": 3.534901,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -900,7 +900,7 @@
         "termo": "Cefotaxma",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 3.683035,
+        "tempoMs": 3.273294,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -915,7 +915,7 @@
           50,
           51
         ],
-        "tempoMs": 3.338557,
+        "tempoMs": 2.832955,
         "precision": 0.3333333333333333,
         "recall": 1,
         "acertoNoTopo": true,
@@ -926,7 +926,7 @@
         "termo": "Sitalopram",
         "categoria": "Fonética",
         "idsRetornados": [],
-        "tempoMs": 3.667206,
+        "tempoMs": 3.160574,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -940,7 +940,7 @@
           50,
           51
         ],
-        "tempoMs": 3.255956,
+        "tempoMs": 4.181155,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -954,7 +954,7 @@
           50,
           51
         ],
-        "tempoMs": 3.599292,
+        "tempoMs": 3.239231,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -970,7 +970,7 @@
           1,
           2
         ],
-        "tempoMs": 4.184842,
+        "tempoMs": 4.390023,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -984,7 +984,7 @@
           1,
           2
         ],
-        "tempoMs": 3.487098,
+        "tempoMs": 3.574615,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -995,7 +995,7 @@
         "termo": "Ibuprof",
         "categoria": "Parcial",
         "idsRetornados": [],
-        "tempoMs": 3.045551,
+        "tempoMs": 3.673239,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1009,7 +1009,7 @@
           3,
           4
         ],
-        "tempoMs": 3.130497,
+        "tempoMs": 2.956885,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1023,7 +1023,7 @@
           3,
           4
         ],
-        "tempoMs": 3.157947,
+        "tempoMs": 3.104129,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1034,7 +1034,7 @@
         "termo": "Amoxi",
         "categoria": "Parcial",
         "idsRetornados": [],
-        "tempoMs": 3.090513,
+        "tempoMs": 3.237758,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1049,7 +1049,7 @@
           6,
           7
         ],
-        "tempoMs": 3.069154,
+        "tempoMs": 2.994165,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1060,7 +1060,7 @@
         "termo": "Paraectamol",
         "categoria": "Transposição",
         "idsRetornados": [],
-        "tempoMs": 3.08878,
+        "tempoMs": 4.035673,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1071,7 +1071,7 @@
         "termo": "Paracetanol",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 3.353293,
+        "tempoMs": 3.313489,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1085,7 +1085,7 @@
           8,
           9
         ],
-        "tempoMs": 3.179727,
+        "tempoMs": 3.332835,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1096,7 +1096,7 @@
         "termo": "Dipitona",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 3.594414,
+        "tempoMs": 3.686413,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1109,7 +1109,7 @@
         "idsRetornados": [
           10
         ],
-        "tempoMs": 3.271855,
+        "tempoMs": 3.406943,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1122,7 +1122,7 @@
         "idsRetornados": [
           10
         ],
-        "tempoMs": 3.096775,
+        "tempoMs": 2.974689,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1136,7 +1136,7 @@
           11,
           12
         ],
-        "tempoMs": 3.150833,
+        "tempoMs": 2.657077,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1150,7 +1150,7 @@
           11,
           12
         ],
-        "tempoMs": 2.916235,
+        "tempoMs": 3.102326,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1164,7 +1164,7 @@
           13,
           14
         ],
-        "tempoMs": 3.116351,
+        "tempoMs": 2.76057,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1178,7 +1178,7 @@
           13,
           14
         ],
-        "tempoMs": 3.349526,
+        "tempoMs": 3.310514,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1192,7 +1192,7 @@
           15,
           16
         ],
-        "tempoMs": 3.165761,
+        "tempoMs": 2.973716,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1203,7 +1203,7 @@
         "termo": "Koratadina",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 3.065588,
+        "tempoMs": 2.936417,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1217,7 +1217,7 @@
           17,
           18
         ],
-        "tempoMs": 3.30718,
+        "tempoMs": 3.257034,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1231,7 +1231,7 @@
           17,
           18
         ],
-        "tempoMs": 3.019493,
+        "tempoMs": 2.93841,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1244,7 +1244,7 @@
         "idsRetornados": [
           19
         ],
-        "tempoMs": 3.069305,
+        "tempoMs": 2.639114,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1257,7 +1257,7 @@
         "idsRetornados": [
           19
         ],
-        "tempoMs": 3.655856,
+        "tempoMs": 4.333388,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1271,7 +1271,7 @@
           20,
           21
         ],
-        "tempoMs": 3.163777,
+        "tempoMs": 3.328247,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1282,7 +1282,7 @@
         "termo": "Diclofe",
         "categoria": "Parcial",
         "idsRetornados": [],
-        "tempoMs": 3.048377,
+        "tempoMs": 3.046221,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1296,7 +1296,7 @@
           22,
           23
         ],
-        "tempoMs": 3.006229,
+        "tempoMs": 3.312758,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1310,7 +1310,7 @@
           22,
           23
         ],
-        "tempoMs": 3.060459,
+        "tempoMs": 3.005666,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1324,7 +1324,7 @@
           24,
           25
         ],
-        "tempoMs": 3.034562,
+        "tempoMs": 3.226517,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1338,7 +1338,7 @@
           24,
           25
         ],
-        "tempoMs": 3.013733,
+        "tempoMs": 2.974318,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1352,7 +1352,7 @@
           26,
           27
         ],
-        "tempoMs": 3.519456,
+        "tempoMs": 4.752108,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1366,7 +1366,7 @@
           26,
           27
         ],
-        "tempoMs": 3.163186,
+        "tempoMs": 2.946495,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1380,7 +1380,7 @@
           28,
           29
         ],
-        "tempoMs": 3.903689,
+        "tempoMs": 3.066069,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1394,7 +1394,7 @@
           28,
           29
         ],
-        "tempoMs": 4.205159,
+        "tempoMs": 3.310724,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1407,7 +1407,7 @@
         "idsRetornados": [
           30
         ],
-        "tempoMs": 3.049889,
+        "tempoMs": 3.45922,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1418,7 +1418,7 @@
         "termo": "Ivemectina",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 3.518324,
+        "tempoMs": 3.256563,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1432,7 +1432,7 @@
           31,
           32
         ],
-        "tempoMs": 3.465839,
+        "tempoMs": 4.149556,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1443,7 +1443,7 @@
         "termo": "Merformina",
         "categoria": "Teclado",
         "idsRetornados": [],
-        "tempoMs": 3.23098,
+        "tempoMs": 3.728181,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1457,7 +1457,7 @@
           33,
           34
         ],
-        "tempoMs": 3.384209,
+        "tempoMs": 3.465111,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1468,7 +1468,7 @@
         "termo": "Clonaz",
         "categoria": "Parcial",
         "idsRetornados": [],
-        "tempoMs": 3.640408,
+        "tempoMs": 3.559286,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1481,7 +1481,7 @@
         "idsRetornados": [
           35
         ],
-        "tempoMs": 4.148696,
+        "tempoMs": 4.020746,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1494,7 +1494,7 @@
         "idsRetornados": [
           35
         ],
-        "tempoMs": 3.217706,
+        "tempoMs": 3.0668,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1507,7 +1507,7 @@
         "idsRetornados": [
           36
         ],
-        "tempoMs": 3.082388,
+        "tempoMs": 2.893968,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1520,7 +1520,7 @@
         "idsRetornados": [
           36
         ],
-        "tempoMs": 3.018552,
+        "tempoMs": 3.037184,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1533,7 +1533,7 @@
         "idsRetornados": [
           37
         ],
-        "tempoMs": 3.149631,
+        "tempoMs": 2.730894,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1546,7 +1546,7 @@
         "idsRetornados": [
           37
         ],
-        "tempoMs": 3.513025,
+        "tempoMs": 2.650976,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1560,7 +1560,7 @@
           38,
           39
         ],
-        "tempoMs": 3.114798,
+        "tempoMs": 2.681593,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1571,7 +1571,7 @@
         "termo": "Duxetina",
         "categoria": "Omissão",
         "idsRetornados": [],
-        "tempoMs": 3.191929,
+        "tempoMs": 3.294474,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1585,7 +1585,7 @@
           40,
           41
         ],
-        "tempoMs": 3.517564,
+        "tempoMs": 2.92726,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1599,7 +1599,7 @@
           40,
           41
         ],
-        "tempoMs": 3.42243,
+        "tempoMs": 3.15321,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1612,7 +1612,7 @@
         "idsRetornados": [
           42
         ],
-        "tempoMs": 3.178895,
+        "tempoMs": 2.907904,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1625,7 +1625,7 @@
         "idsRetornados": [
           42
         ],
-        "tempoMs": 3.470357,
+        "tempoMs": 2.955392,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1638,7 +1638,7 @@
         "idsRetornados": [
           43
         ],
-        "tempoMs": 3.179205,
+        "tempoMs": 2.642289,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1649,7 +1649,7 @@
         "termo": "Predni",
         "categoria": "Parcial",
         "idsRetornados": [],
-        "tempoMs": 3.227914,
+        "tempoMs": 2.729271,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1663,7 +1663,7 @@
           44,
           45
         ],
-        "tempoMs": 2.977597,
+        "tempoMs": 3.296317,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1677,7 +1677,7 @@
           44,
           45
         ],
-        "tempoMs": 3.087799,
+        "tempoMs": 3.054767,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1691,7 +1691,7 @@
           46,
           47
         ],
-        "tempoMs": 2.969081,
+        "tempoMs": 2.694847,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1705,7 +1705,7 @@
           46,
           47
         ],
-        "tempoMs": 3.093639,
+        "tempoMs": 2.669711,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1718,7 +1718,7 @@
         "idsRetornados": [
           48
         ],
-        "tempoMs": 2.68913,
+        "tempoMs": 2.840719,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1731,7 +1731,7 @@
         "idsRetornados": [
           48
         ],
-        "tempoMs": 2.603043,
+        "tempoMs": 2.829187,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1744,7 +1744,7 @@
         "idsRetornados": [
           49
         ],
-        "tempoMs": 3.385612,
+        "tempoMs": 2.814991,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1757,7 +1757,7 @@
         "idsRetornados": [
           49
         ],
-        "tempoMs": 2.898803,
+        "tempoMs": 3.055478,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1771,7 +1771,7 @@
           50,
           51
         ],
-        "tempoMs": 2.958041,
+        "tempoMs": 3.338386,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1782,7 +1782,7 @@
         "termo": "Escitalo",
         "categoria": "Parcial",
         "idsRetornados": [],
-        "tempoMs": 3.395811,
+        "tempoMs": 3.171054,
         "precision": 0,
         "recall": 0,
         "acertoNoTopo": false,
@@ -1798,7 +1798,7 @@
           1,
           2
         ],
-        "tempoMs": 3.622565,
+        "tempoMs": 3.785237,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1812,7 +1812,7 @@
           1,
           2
         ],
-        "tempoMs": 4.64398,
+        "tempoMs": 5.556736,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1826,7 +1826,7 @@
           1,
           2
         ],
-        "tempoMs": 7.873818,
+        "tempoMs": 6.490474,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1840,7 +1840,7 @@
           3,
           4
         ],
-        "tempoMs": 3.524456,
+        "tempoMs": 3.451567,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1854,7 +1854,7 @@
           3,
           4
         ],
-        "tempoMs": 3.724792,
+        "tempoMs": 3.585756,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1868,7 +1868,7 @@
           3,
           4
         ],
-        "tempoMs": 4.655231,
+        "tempoMs": 4.379443,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1883,7 +1883,7 @@
           6,
           7
         ],
-        "tempoMs": 3.399327,
+        "tempoMs": 3.047283,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1898,7 +1898,7 @@
           6,
           7
         ],
-        "tempoMs": 4.669997,
+        "tempoMs": 4.739975,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1913,7 +1913,7 @@
           6,
           7
         ],
-        "tempoMs": 5.61298,
+        "tempoMs": 5.237471,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1927,7 +1927,7 @@
           8,
           9
         ],
-        "tempoMs": 3.266445,
+        "tempoMs": 3.236365,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1950,7 +1950,7 @@
           46,
           47
         ],
-        "tempoMs": 5.239858,
+        "tempoMs": 5.031999,
         "precision": 0.18181818181818182,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1963,7 +1963,7 @@
         "idsRetornados": [
           10
         ],
-        "tempoMs": 3.0944,
+        "tempoMs": 2.67488,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1976,7 +1976,7 @@
         "idsRetornados": [
           10
         ],
-        "tempoMs": 3.044569,
+        "tempoMs": 3.340079,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -1990,7 +1990,7 @@
           11,
           12
         ],
-        "tempoMs": 2.958412,
+        "tempoMs": 3.230214,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2004,7 +2004,7 @@
           11,
           12
         ],
-        "tempoMs": 3.43364,
+        "tempoMs": 3.215597,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2018,7 +2018,7 @@
           13,
           14
         ],
-        "tempoMs": 2.596071,
+        "tempoMs": 2.948629,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2032,7 +2032,7 @@
           13,
           14
         ],
-        "tempoMs": 3.180498,
+        "tempoMs": 2.870233,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2046,7 +2046,7 @@
           15,
           16
         ],
-        "tempoMs": 3.180628,
+        "tempoMs": 3.562673,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2060,7 +2060,7 @@
           15,
           16
         ],
-        "tempoMs": 4.482125,
+        "tempoMs": 4.498596,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2074,7 +2074,7 @@
           17,
           18
         ],
-        "tempoMs": 3.313731,
+        "tempoMs": 3.101625,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2088,7 +2088,7 @@
           17,
           18
         ],
-        "tempoMs": 3.25864,
+        "tempoMs": 3.343545,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2101,7 +2101,7 @@
         "idsRetornados": [
           19
         ],
-        "tempoMs": 3.016718,
+        "tempoMs": 2.88449,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2114,7 +2114,7 @@
         "idsRetornados": [
           19
         ],
-        "tempoMs": 3.234898,
+        "tempoMs": 2.785997,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2128,7 +2128,7 @@
           20,
           21
         ],
-        "tempoMs": 2.975514,
+        "tempoMs": 2.901753,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2147,7 +2147,7 @@
           41,
           42
         ],
-        "tempoMs": 4.406236,
+        "tempoMs": 4.018562,
         "precision": 0.2857142857142857,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2161,7 +2161,7 @@
           22,
           23
         ],
-        "tempoMs": 2.804842,
+        "tempoMs": 2.711449,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2175,7 +2175,7 @@
           22,
           23
         ],
-        "tempoMs": 3.060148,
+        "tempoMs": 3.049077,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2189,7 +2189,7 @@
           24,
           25
         ],
-        "tempoMs": 3.283827,
+        "tempoMs": 3.086977,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2203,7 +2203,7 @@
           24,
           25
         ],
-        "tempoMs": 3.320103,
+        "tempoMs": 3.054216,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2217,7 +2217,7 @@
           26,
           27
         ],
-        "tempoMs": 3.107995,
+        "tempoMs": 3.066178,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2231,7 +2231,7 @@
           26,
           27
         ],
-        "tempoMs": 3.087639,
+        "tempoMs": 2.905029,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2245,7 +2245,7 @@
           28,
           29
         ],
-        "tempoMs": 3.037366,
+        "tempoMs": 3.024691,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2259,7 +2259,7 @@
           28,
           29
         ],
-        "tempoMs": 3.831827,
+        "tempoMs": 4.125111,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2272,7 +2272,7 @@
         "idsRetornados": [
           30
         ],
-        "tempoMs": 4.404503,
+        "tempoMs": 3.891795,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2288,7 +2288,7 @@
           38,
           39
         ],
-        "tempoMs": 5.228227,
+        "tempoMs": 5.582182,
         "precision": 0.25,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2302,7 +2302,7 @@
           31,
           32
         ],
-        "tempoMs": 2.824748,
+        "tempoMs": 3.135588,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2318,7 +2318,7 @@
           35,
           36
         ],
-        "tempoMs": 5.300358,
+        "tempoMs": 4.637254,
         "precision": 0.5,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2332,7 +2332,7 @@
           33,
           34
         ],
-        "tempoMs": 2.682428,
+        "tempoMs": 3.424536,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2349,7 +2349,7 @@
           23,
           43
         ],
-        "tempoMs": 4.174873,
+        "tempoMs": 4.209527,
         "precision": 0.4,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2362,7 +2362,7 @@
         "idsRetornados": [
           35
         ],
-        "tempoMs": 2.728382,
+        "tempoMs": 2.86832,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2375,7 +2375,7 @@
         "idsRetornados": [
           35
         ],
-        "tempoMs": 3.528844,
+        "tempoMs": 3.546513,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2388,7 +2388,7 @@
         "idsRetornados": [
           36
         ],
-        "tempoMs": 8.775745,
+        "tempoMs": 2.900179,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2401,7 +2401,7 @@
         "idsRetornados": [
           36
         ],
-        "tempoMs": 2.986103,
+        "tempoMs": 3.092477,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2414,7 +2414,7 @@
         "idsRetornados": [
           37
         ],
-        "tempoMs": 3.177232,
+        "tempoMs": 9.625721,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2427,7 +2427,7 @@
         "idsRetornados": [
           37
         ],
-        "tempoMs": 3.272877,
+        "tempoMs": 3.515926,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2441,7 +2441,7 @@
           38,
           39
         ],
-        "tempoMs": 3.421838,
+        "tempoMs": 3.149173,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2452,9 +2452,9 @@
         "termo": "Duxetina",
         "categoria": "Omissão",
         "idsRetornados": [
-          37,
           38,
           39,
+          37,
           30,
           3,
           4,
@@ -2467,12 +2467,12 @@
           35,
           36
         ],
-        "tempoMs": 4.949017,
+        "tempoMs": 5.477258,
         "precision": 0.14285714285714285,
         "recall": 1,
-        "acertoNoTopo": false,
+        "acertoNoTopo": true,
         "isControle": false,
-        "falsoPositivoLasa": true
+        "falsoPositivoLasa": false
       },
       {
         "termo": "Aciclovir",
@@ -2481,7 +2481,7 @@
           40,
           41
         ],
-        "tempoMs": 3.097757,
+        "tempoMs": 2.998433,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2495,7 +2495,7 @@
           40,
           41
         ],
-        "tempoMs": 3.08316,
+        "tempoMs": 2.586486,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2508,7 +2508,7 @@
         "idsRetornados": [
           42
         ],
-        "tempoMs": 2.920903,
+        "tempoMs": 2.624957,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2521,7 +2521,7 @@
         "idsRetornados": [
           42
         ],
-        "tempoMs": 3.214179,
+        "tempoMs": 2.811214,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2534,7 +2534,7 @@
         "idsRetornados": [
           43
         ],
-        "tempoMs": 3.070848,
+        "tempoMs": 2.594991,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2549,7 +2549,7 @@
           44,
           45
         ],
-        "tempoMs": 4.463431,
+        "tempoMs": 4.911284,
         "precision": 0.3333333333333333,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2563,7 +2563,7 @@
           44,
           45
         ],
-        "tempoMs": 3.056381,
+        "tempoMs": 2.692603,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2577,7 +2577,7 @@
           44,
           45
         ],
-        "tempoMs": 3.063393,
+        "tempoMs": 2.421398,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2591,7 +2591,7 @@
           46,
           47
         ],
-        "tempoMs": 3.169257,
+        "tempoMs": 2.588389,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2605,7 +2605,7 @@
           46,
           47
         ],
-        "tempoMs": 3.397915,
+        "tempoMs": 2.997361,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2618,7 +2618,7 @@
         "idsRetornados": [
           48
         ],
-        "tempoMs": 3.081106,
+        "tempoMs": 2.652559,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2631,7 +2631,7 @@
         "idsRetornados": [
           48
         ],
-        "tempoMs": 3.084793,
+        "tempoMs": 2.591625,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2644,7 +2644,7 @@
         "idsRetornados": [
           49
         ],
-        "tempoMs": 3.146505,
+        "tempoMs": 2.937629,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2657,7 +2657,7 @@
         "idsRetornados": [
           49
         ],
-        "tempoMs": 3.053416,
+        "tempoMs": 2.971112,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2671,7 +2671,7 @@
           50,
           51
         ],
-        "tempoMs": 3.254743,
+        "tempoMs": 2.847761,
         "precision": 1,
         "recall": 1,
         "acertoNoTopo": true,
@@ -2686,7 +2686,7 @@
           51,
           49
         ],
-        "tempoMs": 4.527908,
+        "tempoMs": 4.150117,
         "precision": 0.6666666666666666,
         "recall": 1,
         "acertoNoTopo": true,
