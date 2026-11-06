@@ -1,13 +1,13 @@
 // Teste de desempenho (k6) da busca de medicamentos - PCG Entrega 2.
 //
-// Não executado neste ambiente (binário k6 indisponível); os números de tempo
-// de resposta reportados na Entrega 2 vêm da suíte de qualidade (Jest +
-// Supertest), que mede cada requisição sequencialmente contra a aplicação em
-// execução. Este script fica no projeto para a etapa de desempenho sob carga
-// prevista em 2.4.2, a ser executada quando k6 estiver disponível no ambiente
-// de CI/local:
+// Executado via Docker (binário k6 não instalado no host):
 //
-//   k6 run test/perf/busca-perf.js
+//   docker run --rm --network host -e BASE_URL=http://localhost:3000 \
+//     -v "$(pwd)/test/perf/busca-perf.js:/script.js:ro" grafana/k6 run /script.js
+//
+// Resultado (20 VUs, 30s, modo híbrido, 2026-11-06): p(95)=6.5ms, 5691
+// requisições, 0% de falha. Ver test/results/k6-resultados.txt para a saída
+// completa.
 //
 import http from 'k6/http';
 import { check, sleep } from 'k6';

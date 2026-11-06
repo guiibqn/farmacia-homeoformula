@@ -1,0 +1,21 @@
+Teste de desempenho (k6) - Busca fonética, modo híbrido
+Executado em: 2026-11-06, via `docker run --rm --network host grafana/k6 run test/perf/busca-perf.js`
+Config: 20 VUs, 30s, BASE_URL=http://localhost:3000, MODO=hibrida
+Banco: docker-compose.test.yml (PostgreSQL efêmero, 51 medicamentos no catálogo)
+
+THRESHOLDS
+  http_req_duration
+  [PASS] 'p(95)<200' p(95)=6.5ms
+
+TOTAL RESULTS
+  checks_total.......: 5691   189.097752/s
+  checks_succeeded...: 100.00% 5691 out of 5691
+  checks_failed......: 0.00%   0 out of 5691
+
+  HTTP
+  http_req_duration..: avg=3.72ms min=1.03ms med=3.04ms max=148.5ms p(90)=5.37ms p(95)=6.5ms
+  http_req_failed....: 0.00%  0 out of 5691
+  http_reqs..........: 5691   189.097752/s
+
+  vus................: 20     min=20  max=20
+  vus_max............: 20     min=20  max=20
